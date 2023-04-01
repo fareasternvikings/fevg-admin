@@ -2,7 +2,7 @@
   "name": "fevg-admin",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Far eastern vikings gear - admin panel",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
