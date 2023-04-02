@@ -12,4 +12,10 @@ build:
 	-f Dockerfile.prod .
 
 prod:
-	docker-compose -d -f docker-compose.prod.yml up
+	docker-compose -f docker-compose.prod.yml up -d
+
+copy-file:
+	scp -i ~/.ssh/vikings_rsa .env root@185.177.216.70:/root/fevg-admin
+
+connect-to-vps:
+	ssh -i ~/.ssh/vikings_rsa root@185.177.216.70
