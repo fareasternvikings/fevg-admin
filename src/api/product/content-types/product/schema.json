@@ -22,6 +22,75 @@
     },
     "price": {
       "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Лонгслив",
+        "Флисовый баф",
+        "Лайкровые штаны",
+        "Майка из лайкры",
+        "Флисовый комбинезон"
+      ]
+    },
+    "model": {
+      "type": "enumeration",
+      "enum": [
+        "Мужская",
+        "Женская",
+        "Универсальная"
+      ],
+      "required": true,
+      "default": "Универсальная"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "Цвет 1",
+        "Цвет 2"
+      ]
+    },
+    "sizes": {
+      "type": "enumeration",
+      "enum": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "care": {
+      "type": "text",
+      "required": true
+    },
+    "compound": {
+      "type": "text",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "activity": {
+      "type": "customField",
+      "options": [
+        "Yachting",
+        "Windsurfing",
+        "Surfing",
+        "Wakeboarding",
+        "Kiting",
+        "SUP surfing"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }
