@@ -23,16 +23,6 @@
     "price": {
       "type": "integer"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "Лонгслив",
-        "Флисовый баф",
-        "Лайкровые штаны",
-        "Майка из лайкры",
-        "Флисовый комбинезон"
-      ]
-    },
     "model": {
       "type": "enumeration",
       "enum": [
@@ -91,6 +81,21 @@
         "SUP surfing"
       ],
       "customField": "plugin::multi-select.multi-select"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "material": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::material.material",
+      "inversedBy": "products"
+    },
+    "label": {
+      "type": "string"
     }
   }
 }

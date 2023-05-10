@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_headers",
+  "info": {
+    "singularName": "page-header",
+    "pluralName": "page-headers",
+    "displayName": "PageHeader"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.navigation"
+    }
+  }
+}

@@ -14,18 +14,18 @@
       "type": "string",
       "required": true
     },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "link": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.link",
-      "required": true
-    },
-    "cover": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
+      "component": "shared.link"
     }
   }
 }
