@@ -21,26 +21,26 @@ module.exports = ({ env }) => ({
           // "api::homepage.homepage",
         ],
       },
-      'strapi-plugin-populate-deep': {
-        config: {
-          defaultDepth: 5, // Default is 5
-        }
-      },
     },
   },
-  sentry: {
-    enabled: true,
+  'strapi-plugin-populate-deep': {
     config: {
-      dsn: env('SENTRY_DSN'),
-      sendMetadata: true,
-    },
+      defaultDepth: 5, // Default is 5
+    }
   },
+  // sentry: {
+  //   enabled: true,
+  //   config: {
+  //     dsn: env('SENTRY_DSN'),
+  //     sendMetadata: true,
+  //   },
+  // },
 
   upload: {
     config: {
       provider: 'local',
       providerOptions: {
-        sizeLimit: 100000,
+        sizeLimit: 1000000,
       },
     },
   },
