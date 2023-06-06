@@ -109,6 +109,9 @@
       "type": "component",
       "repeatable": false,
       "component": "layout.showcase"
+    },
+    "isNew": {
+      "type": "boolean"
     }
   }
 }
