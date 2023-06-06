@@ -19,6 +19,7 @@
     "pg": "^8.10.0",
     "strapi-plugin-import-export-entries": "^1.19.2",
     "strapi-plugin-multi-select": "^1.1.0",
+    "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-responsive-image": "^1.0.1",
     "strapi-plugin-rest-cache": "^4.2.7",
     "uuid": "^9.0.0"
