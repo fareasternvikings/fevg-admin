@@ -96,6 +96,19 @@
     },
     "label": {
       "type": "string"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "showcase": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.showcase"
     }
   }
 }

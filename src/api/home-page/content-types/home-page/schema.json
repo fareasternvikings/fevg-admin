@@ -32,16 +32,16 @@
       "repeatable": false,
       "component": "layout.about-us"
     },
-    "team": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::team-member.team-member"
-    },
     "promo": {
       "type": "component",
       "repeatable": false,
       "component": "layout.promo",
       "required": true
+    },
+    "team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.team"
     }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_layout_teams",
+  "info": {
+    "displayName": "team"
+  },
+  "options": {},
+  "attributes": {
+    "member": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.team-card"
+    }
+  }
+}

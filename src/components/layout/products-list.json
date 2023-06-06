@@ -1,7 +1,8 @@
 {
   "collectionName": "components_layout_products_lists",
   "info": {
-    "displayName": "ProductsList"
+    "displayName": "ProductsList",
+    "description": ""
   },
   "options": {},
   "attributes": {

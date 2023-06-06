@@ -11,20 +11,20 @@
       "required": true,
       "unique": true
     },
-    "photos": {
+    "cover": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images"
       ]
     },
-    "cover": {
+    "photos": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
     }
   }
 }
