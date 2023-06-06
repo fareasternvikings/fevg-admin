@@ -17,6 +17,7 @@
     "better-sqlite3": "8.0.1",
     "pg": "^8.10.0",
     "strapi-plugin-multi-select": "^1.1.0",
+    "strapi-plugin-responsive-image": "^1.0.1",
     "uuid": "^9.0.0"
   },
   "author": {
