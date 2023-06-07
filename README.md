@@ -1,1 +1,1 @@
-# 🚀 FAR EASTERN VIKINGS GEAR admin panel
+# 🚀 FAR EASTERN VIKINGS GEAR admin panel!
