@@ -13,6 +13,11 @@
     "text": {
       "type": "richtext",
       "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "unique": false
     }
   }
 }

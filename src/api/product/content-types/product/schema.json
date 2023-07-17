@@ -37,13 +37,6 @@
       "type": "richtext",
       "required": true
     },
-    "color": {
-      "type": "enumeration",
-      "enum": [
-        "Темно-синий",
-        "Светло-серый"
-      ]
-    },
     "care": {
       "type": "text",
       "required": true
@@ -68,7 +61,7 @@
         "Surfing",
         "Wakeboarding",
         "Kiting",
-        "SUP surfing"
+        "Sup-surfing"
       ],
       "customField": "plugin::multi-select.multi-select"
     },
@@ -95,11 +88,6 @@
         "images"
       ]
     },
-    "showcase": {
-      "type": "component",
-      "repeatable": false,
-      "component": "layout.showcase"
-    },
     "isNew": {
       "type": "boolean"
     },
@@ -114,6 +102,26 @@
         "xl"
       ],
       "customField": "plugin::multi-select.multi-select"
+    },
+    "colors": {
+      "type": "customField",
+      "options": [
+        "blue",
+        "white",
+        ""
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "features": {
+      "type": "richtext"
+    },
+    "showcase": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
     }
   }
 }
