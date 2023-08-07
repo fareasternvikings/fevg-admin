@@ -91,18 +91,6 @@
     "isNew": {
       "type": "boolean"
     },
-    "sizes": {
-      "type": "customField",
-      "options": [
-        "xs",
-        "s",
-        "m",
-        "l",
-        "lg",
-        "xl"
-      ],
-      "customField": "plugin::multi-select.multi-select"
-    },
     "colors": {
       "type": "customField",
       "options": [
@@ -116,12 +104,12 @@
       "type": "richtext"
     },
     "showcase": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
